@@ -3,7 +3,7 @@
 Better Maces is a cosmetic datapack/mod that makes so the smash attack of the mace feels like a real smash attack.
 
 ## 🎥 Example
-[![demo](https://i.imgur.com/iL8LdQw.gif)](https://i.imgur.com/iL8LdQw.gif)
+[![demo](https://cdn.modrinth.com/data/C36CZGrl/images/7aa66931978cd95db0d5c46c3314564cce4aa483.webp)](https://cdn.modrinth.com/data/C36CZGrl/images/7aa66931978cd95db0d5c46c3314564cce4aa483.webp)
 
 ## 🔗 Links
 [![youtube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EclipseStudiosMC)
