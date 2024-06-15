@@ -1,0 +1,15 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "mace:hit": 1
+      }
+    },
+    {
+      "function": "minecraft:set_components",
+      "components": {
+        "minecraft:enchantment_glint_override": false
+      }
+    }
+  ]
+  

@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "items": "minecraft:mace",
+        "components": {
+          "minecraft:enchantment_glint_override": false
+        }
+      }
+    }
+  }
+}
