@@ -1,6 +1,6 @@
-# 🔨 Better Maces
+# 🔨 Better Mace
 
-Better Maces is a cosmetic datapack/mod that makes so the smash attack of the mace feels like a real smash attack.
+Better Mace is a cosmetic datapack/mod that makes so the smash attack of the mace feels like a real smash attack.
 
 ## 🎥 Example
 [![demo](https://cdn.modrinth.com/data/C36CZGrl/images/7aa66931978cd95db0d5c46c3314564cce4aa483.webp)](https://cdn.modrinth.com/data/C36CZGrl/images/7aa66931978cd95db0d5c46c3314564cce4aa483.webp)
@@ -8,7 +8,7 @@ Better Maces is a cosmetic datapack/mod that makes so the smash attack of the ma
 ## 🔗 Links
 [![youtube](https://img.shields.io/badge/youtube-ff0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/@EclipseStudiosMC)
 [![discord](https://img.shields.io/badge/discord-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/4pYjW9btNc)
-[![modrinth](https://img.shields.io/badge/modrinth-5AD770?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/user/EclipseStudios)
+[![modrinth](https://img.shields.io/badge/modrinth-5AD770?style=for-the-badge&logo=modrinth&logoColor=white)](https://modrinth.com/organization/eclipse-studios)
 [![github](https://img.shields.io/badge/github-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EclipseStudiosMC)
 [![Patreon](https://img.shields.io/badge/Patreon-f96854?style=for-the-badge&logo=patreon&logoColor=white)](https://www.patreon.com/EclipseStudios447)
 [![CurseForge](https://img.shields.io/badge/Curseforge-0D0D0D?style=for-the-badge&logo=curseforge&logoColor=white)](https://www.curseforge.com/members/elgeroingles/projects)
