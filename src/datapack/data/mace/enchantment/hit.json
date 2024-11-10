@@ -1,0 +1,60 @@
+{
+  "description": "",
+  "supported_items": "minecraft:mace",
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "mainhand"
+  ],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "enchanted": "attacker",
+        "affected": "victim",
+        "effect": {
+          "type": "minecraft:run_function",
+          "function": "mace:wave/summon"
+        },
+        "requirements": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "flags": {
+                    "is_on_ground": true
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "direct_attacker",
+                "predicate": {
+                  "movement": {
+                    "fall_distance": {
+                      "min": 1.5
+                    }
+                  },
+                  "flags": {
+                    "is_flying": false
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
