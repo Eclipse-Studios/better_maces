@@ -6,7 +6,7 @@
 data remove storage mace:temp values
 
 # Get block id:
-data modify storage mace:temp values.id set from entity @s ArmorItems[3].id
+data modify storage mace:temp values.id set from entity @s equipment.head.id
 
 # Get random Y motion:
 execute store result storage mace:temp values.motion double 0.001 run random value 300..325
@@ -20,7 +20,7 @@ setblock ~ ~ ~ air
 tag @s add mace.lifted
 
 # Check if ~ ~ ~ has a block up and if so lift it up too:
-execute positioned ~ ~1 ~ unless block ~ ~ ~ air run loot replace entity @s armor.head mine ~ ~ ~ netherite_pickaxe[enchantments={levels:{"minecraft:silk_touch":1}}]
+execute positioned ~ ~1 ~ unless block ~ ~ ~ air run loot replace entity @s armor.head mine ~ ~ ~ netherite_pickaxe[enchantments={"minecraft:silk_touch":1}]
 execute positioned ~ ~1 ~ unless block ~ ~ ~ air if predicate mace:head run function mace:wave/up
 
 # Test 2:

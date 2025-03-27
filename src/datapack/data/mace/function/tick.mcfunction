@@ -12,5 +12,5 @@ execute as @e[tag=mace.true_final_point] at @s run function mace:wave/kill
 execute as @e[tag=mace.final_point,tag=!mace.true_final_point] at @s unless entity @n[type=item,tag=mace.ride,distance=..0.25] run tag @s add mace.true_final_point
 
 # Add custom enchantment to all maces:
-execute as @a if items entity @s[predicate=mace:hold] weapon.mainhand *[!enchantments~[{enchantments:"mace:hit",levels:1}]] run item modify entity @s weapon.mainhand mace:enchant
-execute as @a if items entity @s[predicate=mace:hold_] weapon.mainhand *[enchantments~[{enchantments:"mace:hit",levels:1}]] run function mace:wave/enchant
+execute as @a if items entity @s weapon.mainhand minecraft:mace[!minecraft:enchantments~[{"mace:hit":1}]] run item modify entity @s weapon.mainhand mace:enchant
+execute as @a if items entity @s weapon.mainhand minecraft:mace[minecraft:enchantments~[{"mace:hit":1}]] run function mace:wave/enchant

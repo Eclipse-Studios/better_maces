@@ -1,7 +1,7 @@
 # say up
 
 # Get block id:
-data modify storage mace:temp values.id set from entity @s ArmorItems[3].id
+data modify storage mace:temp values.id set from entity @s equipment.head.id
 # tellraw @a {"nbt":"values","storage":"mace:temp","color":"gold"}
 
 # Summon falling block:
