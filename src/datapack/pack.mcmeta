@@ -1,9 +1,9 @@
 {
     "id": "mace",
     "pack": {
-      "pack_format": 75,
-      "min_format": 75,
-      "max_format": 75,
+      "pack_format": 101,
+      "min_format": [101, 1],
+      "max_format": [101, 1],
       "description": [
         {
           "text": "Better Maces - ",
